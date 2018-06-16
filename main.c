@@ -32,7 +32,7 @@ static InputOrOutput checkInputOrOutput (char* string) {
 }
 
 static WhatIsTheInput checkInput(int argc , char** argv){
-    if (argc > 5 || argc==2 || argc== 4) { // invalid number of parameters.
+    if (argc > 5 || argc==2 || argc== 4) {  // invalid number of parameters.
         return INPUT_ERROR;
     }
     if (argc == 3 ) {
